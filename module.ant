@@ -1,0 +1,29 @@
+<!--
+	Ivy
+	
+	Copyright 2021 MicroEJ Corp. All rights reserved.
+	This library is provided in source code for use, modification and test, subject to license terms.
+	Any modification of the source code will break MicroEJ Corp. warranties on the whole library.
+-->
+<project name="com.microej.clibrary.llimpl;mjvm-micriumos" xmlns:ea="antlib:org.apache.easyant">
+
+	<ea:plugin module="phases-std" revision="0.9" />
+	
+    <target name="mjvm-micriumos:build" extensionOf="package">
+    	<!-- 
+    		Available properties are :
+    		ccomponent.content.dir: put here all the data of the C component that will be copied in the BSP when the module is installed ("content" folder in the rip zip)  
+    		
+    		You can also use the path "ccomponent.source.path" as following (first you must define the path with overwrite=false):
+    		<ea:path pathid="ccomponent.source.path" overwrite="false"/>    		
+    		<ea:path pathid="ccomponent.source.path" overwrite="append">
+    			<fileset dir="${whatever}"/>
+    		</ea:path>
+    		This path contains the files that will be zipped in the rip file.
+    		
+    		See the following wiki page to get some information about the usage of the fetched dependencies:
+    		http://wiki.labs/wiki/index.php/EasyAnt_BuildTypes#Retrieve_and_Use_Dependencies 
+    	-->
+    </target>
+
+</project>

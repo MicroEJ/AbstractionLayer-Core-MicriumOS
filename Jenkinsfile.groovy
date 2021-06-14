@@ -2,7 +2,7 @@
 buildWithAnt{
 	PROJECT_ID = "1447"			//The gitlab project ID. It can be found in the gitlab project interface.
             
-	MODULE_DIR = "cco-mjvm-micriumos"				// The name of the project into which your MODULE_FILENAME is. Default value is : "" . So leave blank if your MODULE_FILENAME is in the root of your gitlab project.
+	//MODULE_DIR = ""				// The name of the project into which your MODULE_FILENAME is. Default value is : "" . So leave blank if your MODULE_FILENAME is in the root of your gitlab project.
 	//MODULE_FILENAME= ""				// The module filename. Default value is : module.ivy. Set it if yours is different.
 	//LABEL = ""					// The label where build must be run. Default value is : public. Set it if yours is different.
               
