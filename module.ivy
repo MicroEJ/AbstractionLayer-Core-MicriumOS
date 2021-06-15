@@ -6,7 +6,7 @@
 	Any modification of the source code will break MicroEJ Corp. warranties on the whole library.
 -->
 <ivy-module version="2.0" xmlns:ea="http://www.easyant.org"> 
-    <info organisation="com.microej.clibrary.llimpl" module="ccm-mjvm-micriumos" status="integration" revision="1.1.0">
+    <info organisation="com.microej.clibrary.llimpl" module="mjvm-micriumos" status="integration" revision="1.1.1">
         <ea:build organisation="com.is2t.easyant.buildtypes" module="build-microej-ccomponent" revision="1.+">
         	<ea:property name="ccomponent.category" value="core"/>
         	<ea:property name="skip.test" value="true"/>
